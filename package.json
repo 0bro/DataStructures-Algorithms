@@ -1,0 +1,33 @@
+{
+  "name": "datastructures-algorithms",
+  "version": "1.0.0",
+  "description": "Showcasing my experience solving popular LeetCode problems",
+  "main": "index.js",
+  "scripts": {
+    "start" :"node --",
+    "debug": "LOG_LEVEL=debug nodemon --inspect=0.0.0.0:9229 ./src/server.js --watch src",
+    "lint": "eslint --config .eslintrc.js Problems/**",
+    "test:watch": "jest -c --runInBand --watch --",
+    "test": "jest -c jest.config.js --runInBand --",
+    "testIbrahimsSolution": "jest -c jest.config.js --runInBand testMyFiles.test.js",
+    "coverage": "jest -c jest.config.js --runInBand --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0bro/DataStructures-Algorithms.git"
+  },
+  "author": "Ibrahim Muhammad Yusoof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0bro/DataStructures-Algorithms/issues"
+  },
+  "homepage": "https://github.com/0bro/DataStructures-Algorithms#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "jest": "^29.4.2",
+    "node": "^19.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}

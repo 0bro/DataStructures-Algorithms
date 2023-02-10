@@ -1,0 +1,5 @@
+#All Node Modules
+/node_modules/
+
+#prettierFiles
+/.prettierignore
